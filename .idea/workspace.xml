@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35746b08-4e2b-473b-97e3-8c0d0737c94a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CalculatorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CalculatorInterface.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CalculatorStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/hide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/calculator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculatorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CalculatorInterface.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculatorInterface.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +44,16 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Run" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
