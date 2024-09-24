@@ -7,8 +7,27 @@
 
 <AnchorPane prefHeight="600.0" prefWidth="400.0" stylesheets="@CalculatorStyle.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CalculatorController">
    <children>
-      <Pane layoutX="8.0" layoutY="39.0" prefHeight="553.0" prefWidth="383.0" styleClass="mainPanel" />
-      <Pane prefHeight="38.0" prefWidth="400.0">
+      <Pane layoutX="8.0" layoutY="39.0" prefHeight="553.0" prefWidth="383.0" styleClass="mainPanel">
+         <children>
+            <Pane layoutX="13.0" layoutY="430.0" prefHeight="85.0" prefWidth="85.0" styleClass="highlight" />
+            <Pane layoutX="13.0" layoutY="13.0" prefHeight="117.0" prefWidth="359.0" styleClass="highlight" />
+            <Pane layoutX="13.0" layoutY="145.0" prefHeight="85.0" prefWidth="85.0" styleClass="highlight" />
+            <Pane layoutX="103.0" layoutY="145.0" prefHeight="85.0" prefWidth="85.0" styleClass="highlight" />
+            <Pane layoutX="193.0" layoutY="145.0" prefHeight="85.0" prefWidth="85.0" styleClass="highlight" />
+            <Pane layoutX="284.0" layoutY="145.0" prefHeight="85.0" prefWidth="85.0" styleClass="highlight" />
+            <Pane layoutX="13.0" layoutY="240.0" prefHeight="85.0" prefWidth="85.0" styleClass="highlight" />
+            <Pane layoutX="103.0" layoutY="240.0" prefHeight="85.0" prefWidth="85.0" styleClass="highlight" />
+            <Pane layoutX="193.0" layoutY="240.0" prefHeight="85.0" prefWidth="85.0" styleClass="highlight" />
+            <Pane layoutX="284.0" layoutY="240.0" prefHeight="85.0" prefWidth="85.0" styleClass="highlight" />
+            <Pane layoutX="13.0" layoutY="335.0" prefHeight="85.0" prefWidth="85.0" styleClass="highlight" />
+            <Pane layoutX="103.0" layoutY="335.0" prefHeight="85.0" prefWidth="85.0" styleClass="highlight" />
+            <Pane layoutX="193.0" layoutY="335.0" prefHeight="85.0" prefWidth="85.0" styleClass="highlight" />
+            <Pane layoutX="284.0" layoutY="335.0" prefHeight="85.0" prefWidth="85.0" styleClass="highlight" />
+            <Pane layoutX="103.0" layoutY="430.0" prefHeight="85.0" prefWidth="85.0" styleClass="highlight" />
+            <Pane layoutX="193.0" layoutY="430.0" prefHeight="85.0" prefWidth="85.0" styleClass="highlight" />
+            <Pane layoutX="284.0" layoutY="430.0" prefHeight="85.0" prefWidth="85.0" styleClass="highlight" />
+         </children></Pane>
+      <Pane fx:id="titlePane" prefHeight="38.0" prefWidth="400.0">
          <children>
             <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="365.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -30,5 +49,4 @@
                </image>
             </ImageView>
          </children></Pane>
-   </children>
-</AnchorPane>
+   </childr

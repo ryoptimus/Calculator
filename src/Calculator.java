@@ -8,12 +8,14 @@ import javafx.stage.StageStyle;
 public class Calculator extends Application {
     @Override
     public void start(Stage stage) throws Exception {
-        Scene scene = new Scene(FXMLLoader.load(getClass().getResource("CalculatorInterface.fxml")));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("CalculatorInterface.fxml"));
+        Scene scene = new Scene(loader.load());
         scene.setFill(Color.TRANSPARENT);
         stage.setScene(scene);
         stage.initStyle(StageStyle.TRANSPARENT);
         stage.setResizable(false);
         stage.setTitle("Calculator");
+        ((CalculatorController)loader.getController()).init(stage);
         stage.show();
     }
 
